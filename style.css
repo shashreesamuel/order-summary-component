@@ -1,0 +1,127 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --fs-paragraph: 16px;
+  --fs-medium: 500;
+  --fs-bold: 700;
+  --fs-extrabold: 900;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: var(--pale-blue);
+}
+
+.card{
+  margin: 10rem auto;
+  height: 540px;
+  border-radius: 1rem;
+  width: 350px;
+  background-color: var(--very-pale-blue);
+}
+
+.card__abstract-background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+.card__title{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card__hero{
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.card__title{
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.card__description{
+  font-family: 'Red Hat Display', sans-serif;
+  color: var(--desaturated-blue);
+  text-align: center;
+  margin-top: 1.1rem;
+  font-size: .9rem;
+  padding-inline: 2rem;
+  font-weight: 500;
+}
+
+.card__lower{
+  display: grid;
+  grid-template-columns: repeat(3, .27fr);
+  gap: -1rem;
+  padding-inline: 1.5rem;
+}
+
+.music_icon{
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.card__subtitle{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  color: var(--dark-blue);
+  margin-top: 2rem;
+  width: max-content;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+.card__info{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  color: var(--desaturated-blue);
+  margin-left: 1rem;
+  margin-top: .4rem;
+}
+
+.card__button{
+  margin-top: 3rem;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  color: var(--bright-blue);
+  margin-left: 3rem;
+}
+
+.card--lower{
+  margin-top: 4rem;
+  margin-left: 2rem;
+  font-weight: 900;
+  font-size: .9rem;
+  color: var(--pale-blue);
+  padding: .69rem;
+  border-radius: .5rem;
+  background-color: var(--bright-blue);
+  width: 80%;
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+  display: inline-block;
+}
+
+.card--cancel{
+  text-align: center;
+  position: relative;
+  margin-left: 7rem;
+  font-weight: 700;
+  color: var(--desaturated-blue);
+  font-family: 'Red Hat Display', sans-serif;
+}
