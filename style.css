@@ -105,6 +105,7 @@ body {
   margin-top: 4rem;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 900;
+  font-size: 0.8rem;
   color: var(--bright-blue);
   margin-left: 3rem;
 }
@@ -114,7 +115,7 @@ body {
   margin-left: 2rem;
   margin-bottom: 1rem;
   font-weight: 900;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--pale-blue);
   padding: 0.69rem;
   border-radius: 0.5rem;
@@ -134,7 +135,7 @@ body {
   align-items: center;
   padding: 7rem;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--desaturated-blue);
   font-family: "Red Hat Display", sans-serif;
 }
